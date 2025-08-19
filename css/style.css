@@ -44,7 +44,8 @@ body{
 /*Diseño Contenido Principal*/
 .main{
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     width: auto;
 }
 
@@ -53,7 +54,6 @@ body{
     background: #ffded8;
     margin: 5pt;
     padding: 6pt;
-    height: max-content;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -67,3 +67,23 @@ body{
 }
 
 /*Diseño Contenedor de productos*/
+.product-container{
+    margin-top: 50pt;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    gap: 50pt;
+}
+.product-item img{
+    size: 100px;
+}
+.product-item a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: #1a0c00;
+}
+.product-item span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 10pt;
+    color: #1a0c00;
+}
