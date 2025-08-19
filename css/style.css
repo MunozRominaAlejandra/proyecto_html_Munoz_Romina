@@ -1,0 +1,17 @@
+/*Diseño Encabezado*/
+.header{
+    background-color: rgb(241, 173, 128);
+    margin: 4pt;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-logo{
+    flex: auto;
+    justify-content: flex-start;
+}
+.header-name{
+    text-align: center;
+    width: 100%;
+    left: 50%;
+}
