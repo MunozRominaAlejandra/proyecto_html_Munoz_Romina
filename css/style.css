@@ -1,7 +1,14 @@
+/*Diseño fondo*/
+body{
+    background: linear-gradient(to bottom, #ffffff, #ffeafc, #ffd0e1, #ffbbad, #ffb370);
+    margin: 0%;
+    padding: 0%;
+}
+
 /*Diseño Encabezado*/
 .header{
-    background-color: rgb(241, 173, 128);
-    margin: 4pt;
+    background-color: rgb(255, 202, 167);
+    margin: 5pt;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -11,7 +18,25 @@
     justify-content: flex-start;
 }
 .header-name{
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: center;
     width: 100%;
     left: 50%;
+}
+
+/*Diseño navegador principal*/
+.nav-principal ul{
+    background: #ffbbad;
+    margin: 4pt;
+    padding: 6pt;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-principal a{
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 13pt;
+    color: #1a0c00;
 }
