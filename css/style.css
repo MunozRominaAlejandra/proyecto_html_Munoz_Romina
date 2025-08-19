@@ -1,6 +1,6 @@
 /*Diseño fondo*/
 body{
-    background: linear-gradient(to bottom, #ffffff, #ffeafc, #ffd0e1, #ffbbad, #ffb370);
+    background: linear-gradient(to bottom, #ffffff, #ffd0e1, #ffbbad);
     margin: 0%;
     padding: 0%;
 }
@@ -50,26 +50,26 @@ body{
 /*Diseño Contenido Principal*/
 .main{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    align-items: flex-start;
-    gap: 30pt;
+    height: 100%;
 }
 
 /*Diseño Navegador Productos*/
 .nav-producto ul{
     background: #ffded8;
-    margin: 5pt;
-    padding: 6pt;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    margin: 25pt;
+    padding: 25pt;
     list-style: none;
+}
+.nav-producto li{
+    margin-top: 37pt;
+    margin-bottom: 37pt;
+
 }
 .nav-producto a{
     text-decoration: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 13pt;
+    font-size: 15pt;
     color: #1a0c00;
 }
 
