@@ -18,10 +18,9 @@ body{
     justify-content: flex-start;
 }
 .header-logo img{
-    width: 80pt;
-    height: 80pt;
+    width: 85pt;
+    height: 85pt;
     margin: 5pt;
-    border-radius: 5pt;
 }
 .header-name{
     font-size: medium;
@@ -84,7 +83,7 @@ body{
     width: 50mm;
     height: 50mm;
     margin: 5pt;
-    border-radius: 5pt;
+    border-radius: 10pt;
 }
 .product-item a{
     text-decoration: none;
@@ -94,7 +93,7 @@ body{
 }
 .product-item span{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 10pt;
+    font-size: 11pt;
     color: #1a0c00;
 }
 
