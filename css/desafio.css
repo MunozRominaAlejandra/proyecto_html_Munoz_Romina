@@ -2,13 +2,14 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 50px;
 }
 #circulo{
     border: 1px solid#000000;
     background-color: #ffa5e4;
     height: 100pt;
     width: 100pt;
-    margin-left: -20px;
+    margin-left: -50px;
     border-radius: 50% 0% 50% 50%;
 }
 .c1{
